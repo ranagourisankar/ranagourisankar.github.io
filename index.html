@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gouri Sankar Rana</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=League:wght@400;900&family=Poppins:wght@200&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/274b03b089.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- ..........Home.......... -->
+    <section>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="img/logonew.png" class="logo" />
+                    <ul id="sidemenu">
+                        <li><a href="#header" style="--i:1;">Home</a></li>
+                        <li><a href="#about" style="--i:2;">About</a></li>
+                        <li><a href="#services" style="--i:3;">Services</a></li>
+                        <li><a href="#portfolio" style="--i:4;">Portfolio</a></li>
+                        <li><a href="#gallery" style="--i:6;">Gallery</a></li>
+                        <li><a href="#contact" style="--i:7;">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h3>Hello, It's Me</h3>
+                    <h1> Gouri Sankar Rana</h1>
+                    <h3>I'm <span class="multiple-text"></span></h3>
+
+                    <div class="social-icons">
+                        <a href="https://facebook.com/gourisankar.rana.07" style="--i:9;"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/_r_.a._n_.a_/" style="--i:10;"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/gouri-sankar-rana-aa0841238/" style="--i:11;"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/ranagourisankar" style="--i:12;"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/Rana14gouri" style="--i:13;"><i
+                                class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- .......About....... -->
+
+    <section>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="img/idimg.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I'm Gouri Sankar Rana. You can say Rana. I'm a multi-talented individual with a passion for
+                            the creative arts and a knack for technology. As a Front End Developer, I have honed my
+                            skills in creating visually appealing and user-friendly websites. My passion for painting
+                            enriches
+                            my creative expression and enhances my ability to think outside the box. I bring a unique
+                            and well-rounded perspective to any project, making me a valuable asset to any team. As a
+                            skilled front-end developer, seasoned engineer, and accomplished painter, I bring a unique
+                            blend of technical expertise and artistic creativity to every project I undertake. With an
+                            extensive background in developing cutting-edge websites and interactive interfaces, I am
+                            well-versed in frameworks, and design tools. Additionally,
+                            my passion for painting has honed my eye for details, colors, and composition, which has
+                            been instrumental in delivering intuitive, user-centered designs.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-links " onclick="opentab('skills')">Skills</p>
+                            <!-- <p class="tab-links active-links" onclick="opentab('experience')">Experience</p> -->
+                            <p class="tab-links active-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br> Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br> Web site Development</li>
+                                <li><span>Graphics Designing</span><br> Graphics painting </li>
+                            </ul>
+                        </div>
+                        <!-- <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>UI/UX</span><br> Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br> Web site Development</li>
+                                <li><span>Graphics Designing</span><br> Graphics painting </li>
+                            </ul>
+                        </div> -->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2011-2017</span><br> Secondary Education from Chatra Kunja Rani Bani Bhawan
+                                </li>
+                                <li><span>2017-2019</span><br> Higher secondary Education from Chatra Kunja Rani Bani
+                                    Bhawan</li>
+                                <li><span>2019-Present</span><br> B.Tech from The Neotia University</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--.......... services.......... -->
+
+    <section>
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>UI/UX design aims to create a positive user experience that encourages customers to stick
+                            with a brand or product.</p>
+                        <a href="#">learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>We develop dynamic websites that help you connect with your customers.</p>
+                        <a href="#">learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-sharp fa-solid fa-object-group"></i>
+                        <h2>Graphics Design</h2>
+                        <p>Graphic design , We simplify your message & reach your customer.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ........Portfolio........  -->
+
+    <section>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="img/work1.jpg" alt="">
+                        <div class="layer">
+                            <h3>E-commerce site </h3>
+                            <p>Ecommerce is a method of buying and selling goods and services online. it established
+                                selling website like Amazon, or social media to drive online sales.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="img/work3.jpg" alt="">
+                        <div class="layer">
+                            <h3>Spotify Clone</h3>
+                            <p>Spotify clone is a music streaming platform that helps you gain an advantage in the
+                                lucrative streaming industry.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="img/work2 .jpg" alt="">
+                        <div class="layer">
+                            <h3>Chatting Application</h3>
+                            <p>Chatty is a random stranger chat site, where a stranger meets another stranger in text
+                                chat.Start connecting & communicating with the world.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <a href="#" class="button">See more</a>
+            </div>
+        </div>
+    </section>
+
+    <!--...... Gellery......... -->
+
+    <section>
+        <div id="gallery">
+            <div class="container">
+                <h1 class="sub-title gallery-text">Gallery</h1>
+                <h3 class="art-work">My <span>Art</span> Works</h3>
+
+                <div class="boxes">
+                    <div class="box-gallery row-2">
+                        <img src="img/naruto.jpg" alt="">
+                        <div class="layer-gallery">
+
+                            <h4>Naruto</h4>
+                            <p>Black pen Only</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="box-gallery row-2">
+                        <img src="img/Sourav.jpg" alt="">
+                        <div class="layer-gallery">
+
+                            <h4>Sourav</h4>
+                            <p>Black pen Only</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="box-gallery row-2">
+                        <img src="img/maa.jpg" alt="">
+                        <div class="layer-gallery">
+
+                            <h4>My MOM</h4>
+                            <p>Black febric color </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="box-gallery row-2">
+                        <img src="img/radharani.jpg" alt="">
+                        <div class="layer-gallery">
+
+                            <h4>Radha</h4>
+                            <p>wall painting</p>
+                        </div>
+                    </div>
+
+                    <div class="box-gallery row-2">
+                        <img src="img/krishna_2.jpg" alt="">
+                        <div class="layer-gallery">
+
+                            <h4 class="text-3">Kanha</h4>
+                            <p>Sketch Pen Ony</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="box-gallery row-2">
+                        <img src="img/sattyabati.jpg" alt="">
+                        <div class="layer-gallery">
+
+                            <h4 class="text-3">Sattyabati</h4>
+                            <p>Black pen strokes</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="box-gallery row-2">
+                        <img src="img/streetlight.jpg" alt="">
+                        <div class="layer-gallery">
+
+                            <h4 class="text-3">Spreed Love</h4>
+                            <p>Fabric Colour Only</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="box-gallery row-2">
+                        <img src="img/krishna.jpg" alt="">
+                        <div class="layer-gallery">
+
+                            <h4>krishna</h4>
+                            <p>Black pen Only</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- .....Contact..... -->
+
+    <section>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="left-contact">
+                        <h1 class="sub-title">Contact</h1>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29535.298739306516!2d87.8982636762494!3d22.28131011220038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a029468ff8b0861%3A0x840f598cf7d1747f!2sTamluk%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1681321682235!5m2!1sen!2sin"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <p><i class="fa-solid fa-paper-plane"></i>ranagourisankar14@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>8972494976</p>
+                        <div class="social-icons-2">
+                            <a href="https://facebook.com/gourisankar.rana.07"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/_r_.a._n_.a_/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/gouri-sankar-rana-aa0841238/"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/ranagourisankar"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://twitter.com/Rana14gouri"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <a href="img/resumeRana.pdf" download class="button buttoncv">Download CV</a>
+                    </div>
+                    <div class="right-contact">
+                        <h1>Interested to work together? Let's talk</h1>
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <input type="phone" name="Mobile No" placeholder="Mobile No" required>
+                            <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                            <button type="submit" class="button buttoncv">Submit</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="copyright">
+            <p>@ranagourisankar <i class="fa-solid fa-face-smile"></i> It's Me</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+
+
+
+</body>
+
+</html>

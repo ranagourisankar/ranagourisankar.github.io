@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gouri Sankar Rana</title>
+    <title>Rana</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,8 +13,12 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <script src="https://kit.fontawesome.com/274b03b089.js" crossorigin="anonymous"></script>
-      <!-- Google tag (gtag.js) -->
+    <link rel="shortcut icon" href="img/paint-brush.png" type="image/x-icon">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3M7Z2EEG2Y"></script>
+
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -22,6 +26,11 @@
 
         gtag('config', 'G-3M7Z2EEG2Y');
     </script>
+     <script type="text/javascript">
+        (function () {
+          emailjs.init('z55thVq3RtvpM4LIm');
+        })();
+      </script>
 </head>
 
 <body>
@@ -332,11 +341,13 @@
                     </div>
                     <div class="right-contact">
                         <h1>Interested to work together? Let's talk</h1>
-                        <form>
-                            <input type="text" name="Name" placeholder="Your Name" required>
-                            <input type="email" name="Email" placeholder="Your Email" required>
-                            <input type="phone" name="Mobile No" placeholder="Mobile No" required>
-                            <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                        <p id="success"></p>
+                        <p id="alert"></p>
+                        <form id="contact-form">
+                            <input type="text" name="from_name" placeholder="Your Name" required>
+                            <input type="email" name="from_email" placeholder="Your Email" required>
+                            <input type="phone" name="from_mobile" placeholder="Mobile No" required>
+                            <textarea name="message" rows="10" placeholder="Your Message"></textarea>
                             <button type="submit" class="button buttoncv">Submit</button>
                         </form>
 
